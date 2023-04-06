@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing effect</title>
+    <style>
+        body{
+            background-color: rgb(145, 114, 173);
+          
+        }
+        #text{
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            font-weight: 400;
+            margin-top: 270px;
+          
+        }
+    </style>
+</head>
+<body>
+    <div id="text">
+
+    </div>
+    <script type="text/javascript">
+        var i=0,text;
+        text="*#By his grace I am saved,unto him I found life!!*"
+        function typing(){
+            if(i<text.length){
+                document.getElementById("text").innerHTML+=text.charAt(i);
+                i++;
+                setTimeout(typing,200);
+            }
+        }
+        typing();
+
+
+    </script>
+</body>
+</html>

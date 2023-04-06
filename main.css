@@ -1,0 +1,159 @@
+header{
+background-color: azure;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+position: fixed;
+width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    margin-left: 10px;
+    width: 48px;
+    height: 48px;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+   
+}
+.page1{
+    background-color: lightblue;
+}
+.content1{
+    text-align: center;
+   
+    padding: 150px 350px 150px 350px;
+}
+.btn{
+    border: none;
+    background-color: rgb(42, 42, 114);
+    padding: 10px 10px;
+  color: antiquewhite;
+  cursor: pointer;
+  float: left;
+  margin-left: 250px;
+  
+}
+.btn1{
+    background-color: lightskyblue;
+    margin: 0%;
+   
+}
+.content2{
+    color: darkslategrey;
+    height: 250px;
+    
+}
+.lists{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+   
+}
+.content3{
+    background-color: rgb(98, 223, 179);
+    color: white;
+    margin: 0;
+    padding-bottom: 70px;
+   
+   
+}
+.box{
+    background-color: rgb(98, 223, 179);
+    height: 70px;
+
+}
+.quotes{
+    display: inline-block;
+    width: 33%;
+    font-size: x-large;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.content4{
+    background-color: lightblue;
+    display: flex;
+    
+}
+.content4-img{
+    height: 500px;
+    width: 600px;
+}
+.content4-paragraph{
+    color: white;
+    margin: 100px;
+    text-align: center;
+    line-height: 32px;
+}
+.content5{
+    background-color: lightblue;
+    display: flex;
+}
+.content5-img{
+    width: 700px;
+    height: 609px;
+}
+.content5-paragraph{
+    margin: 150px;
+}
+.fill-form{
+    padding: 70px;
+    text-align: center;
+    background-color: lightblue;
+    height: 300px; 
+}
+
+.name, .email{
+    padding: 30px;
+    display: flex;
+    
+    align-items: flex-start; 
+}
+
+#fname, #f-name, #e-mail, #tele{
+    padding: 10px;
+    font-size: 16px;
+    width: 400px;
+    background-color: lightblue;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+ .submit{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    font-size: larger;
+    
+ }
+
+footer{
+    background-color: darkblue;
+  text-align: center;
+    color: aliceblue;
+   padding: 50px 0;
+    font-weight: bold;
+  
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
